@@ -99,3 +99,39 @@
   font-weight: 400;
   font-style: normal;
 }
+
+//UTILITIES//
+
+.width__border__box {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.Full-width {
+  width: 100%;
+  max-width: 100%;
+}
+
+.margin-bottom-v4 {
+  margin-bottom: 24px;
+}
+
+.margin-bottom-v0 {
+  margin-bottom: 0px;
+}
+
+.Livvic-Tittle {
+  font-size: 8.8rem;
+  line-height: 1.25;
+  font-weight: bold;
+}
+
+.Patrick-hand-Tittle {
+  font-size: 2.2rem;
+  line-height: 1.25;
+  font-weight: bold;
+}
+
+h1 {
+  margin-bottom: 1.5 * $Base-unit;
+}
