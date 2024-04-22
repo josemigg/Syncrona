@@ -29,18 +29,20 @@ const Patterns = () => {
         </div>
         <div>
           <h3 className="livvic-regular">Type Scale</h3>
-          <p className="livvic-regular">
+          <p className="livvic-regular margin-bottom-v4">
             We follow a 6px baseline grid for achieving a vertical rhythm on all
             block-level elements.
           </p>
         </div>
 
-        <h1 className="livvic-regular ">Lorem Ipmsum</h1>
-        <h2 className="livvic-regular">Lorem Ipmsum</h2>
-        <h3 className="livvic-regular">Lorem Ipmsum</h3>
-        <h4 className="livvic-regular">Lorem Ipmsum</h4>
-        <h5 className="livvic-regular">Lorem Ipmsum</h5>
-        <h6 className="livvic-regular">Lorem Ipmsum</h6>
+        <div>
+          <h1 className="livvic-regular  margin-bottom-v0">Lorem Ipmsum</h1>
+          <h2 className="livvic-regular">Lorem Ipmsum</h2>
+          <h3 className="livvic-regular">Lorem Ipmsum</h3>
+          <h4 className="livvic-regular">Lorem Ipmsum</h4>
+          <h5 className="livvic-regular">Lorem Ipmsum</h5>
+          <h6 className="livvic-regular">Lorem Ipmsum</h6>
+        </div>
       </div>
     </MainWrapper>
   );

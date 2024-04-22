@@ -1,3 +1,5 @@
+@import "./units.scss";
+
 .livvic-thin {
   font-family: "Livvic", sans-serif;
   font-weight: 100;
@@ -113,7 +115,7 @@
 }
 
 .margin-bottom-v4 {
-  margin-bottom: 24px;
+  margin-bottom: 2 * $Base-Margin;
 }
 
 .margin-bottom-v0 {
