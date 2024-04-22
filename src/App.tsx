@@ -1,15 +1,14 @@
-import './scss/style.scss'
-import { Link } from 'react-router-dom'
+import "./scss/style.scss";
+import { Link } from "react-router-dom";
+
+import Patterns from "./scss/views/Patterns";
 
 function App() {
-    return (
-        <>
-            <h1>Home</h1>
-            <Link to='/login'>Login</Link>
-            <h1>Patterns</h1>
-            <Link to='/Patterns'>Patterns</Link>
-        </>
-  )
+  return (
+    <div>
+      <Patterns />
+    </div>
+  );
 }
 
-export default App
+export default App;
