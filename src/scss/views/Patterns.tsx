@@ -30,7 +30,7 @@ const Patterns = () => {
         <div>
           <h3 className="livvic-regular">Type Scale</h3>
           <p className="livvic-regular margin-bottom-v4">
-            We follow a 6px baseline grid for achieving a vertical rhythm on all
+            We follow a 2em baseline grid for achieving a vertical rhythm on all
             block-level elements.
           </p>
         </div>
