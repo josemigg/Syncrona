@@ -1,9 +1,9 @@
-import React, { ReactElement, useState } from "react";
+import React, { ReactElement, useState } from 'react';
 
-import { Board } from "./models";
-import AddnewBoardButton from "./NewBoardButton";
-import BoardList from "./BoardList";
-import { useTranslation } from "react-i18next";
+import { Board } from './models';
+import AddnewBoardButton from './NewBoardButton';
+import BoardList from './BoardList';
+import { useTranslation } from 'react-i18next';
 
 const AddNewBoard = () => {
   const [board, setBoard] = useState<Board[]>([]);
@@ -12,7 +12,7 @@ const AddNewBoard = () => {
     const newBoard: Board = { Boards: [], id };
     setBoard([...board, newBoard]);
   };
-  const { t, i18n } = useTranslation(["common", "list"]);
+  const { t, i18n } = useTranslation(['common', 'list']);
 
   return (
     <>
@@ -21,16 +21,9 @@ const AddNewBoard = () => {
           <BoardList boardInfo={board} />
         </div>
       ))}
-      <div
-        className="  List__Container margin__bottom__auto"
-        style={{ display: "inline-block" }}
-      >
-        <button
-          style={{ width: "50%" }}
-          onClick={createNewBoard}
-          className="padding__0 "
-        >
-          {t("new board")}
+      <div className="  List__Container margin__bottom__auto" style={{ display: 'inline-block' }}>
+        <button style={{ width: '50%' }} onClick={createNewBoard} className="padding__0 ">
+          {t('new board')}
         </button>
       </div>
     </>
